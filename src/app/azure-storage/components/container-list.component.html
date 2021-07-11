@@ -1,0 +1,5 @@
+<h3>Containers</h3>
+<div *ngFor="let container of containers$ | async">
+    {{ container.name }}
+    <button (click)="onClick(container.name)">View</button>
+</div>

@@ -1,0 +1,4 @@
+<h3>Uploads</h3>
+<ng-container *ngFor="let upload of uploads$ | async">
+  <pre>{{ upload | json }}</pre>
+</ng-container>
