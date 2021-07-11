@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BlobSharedViewStateService } from '../services/blob-shared-view-state.service';
+import { BlobSharedViewStateService } from '../../services/blob-shared-view-state.service';
 
 @Component({
   selector: 'app-selected-container',

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BlobDeletesViewStateService } from '../services/blob-deletes-view-state.service';
+import { BlobDeletesViewStateService } from '../../services/blob-deletes-view-state.service';
 
 @Component({
   selector: 'app-items-deleted',

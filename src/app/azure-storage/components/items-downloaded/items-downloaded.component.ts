@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BlobDownloadsViewStateService } from '../services/blob-downloads-view-state.service';
+import { BlobDownloadsViewStateService } from '../../services/blob-downloads-view-state.service';
 
 @Component({
   selector: 'app-items-downloaded',

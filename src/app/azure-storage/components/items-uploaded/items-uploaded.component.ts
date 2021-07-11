@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BlobUploadsViewStateService } from '../services/blob-uploads-view-state.service';
+import { BlobUploadsViewStateService } from '../../services/blob-uploads-view-state.service';
 
 @Component({
   selector: 'app-items-uploaded',
